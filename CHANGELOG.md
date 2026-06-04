@@ -13,6 +13,11 @@
 
 - 点击导航栏头像跳转到「关于」页面（logo.link: `/` → `/sky-blog/about/`）
 - 浏览器页签图标（favicon）改为使用头像图片：新增 `layouts/_partials/favicons.html` 覆盖主题默认模板
+- 博文分类：「26年第22周」添加 `categories: 天空的投资记录`，后续周记统一使用该分类
+
+### 内容发布
+
+- 新增博文「26年第22周」（`content/posts/26-week22.md`），删除根目录原始文件 `selector_26week22.md`
 
 ### 修复
 
