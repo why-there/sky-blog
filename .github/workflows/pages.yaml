@@ -57,7 +57,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "https://why-there.github.io/moon-blog/"
+            --baseURL "https://why-there.github.io/sky-blog/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -67,7 +67,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "https://why-there.github.io/moon-blog/"
+      url: "https://why-there.github.io/sky-blog/"
     runs-on: ubuntu-latest
     needs: build
     steps:

@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: 月亮加盐
+title: 天空有痕迹
 
 # import hextra as module
 module:
@@ -30,7 +30,7 @@ menu:
         type: search
     - name: GitHub
       weight: 4
-      url: "https://github.com/why-there/moon-blog"
+      url: "https://github.com/why-there/sky-blog"
       params:
         icon: github
 
@@ -50,4 +50,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/why-there/moon-blog/edit/main/content"
+    base: "https://github.com/why-there/sky-blog/edit/main/content"

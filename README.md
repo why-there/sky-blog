@@ -1,8 +1,8 @@
-# 月亮加盐
+# 天空有痕迹
 
 个人博客，使用 [Hugo](https://gohugo.io/) 和 [Hextra](https://github.com/imfing/hextra) 主题构建。
 
-访问地址：https://why-there.github.io/moon-blog/
+访问地址：https://why-there.github.io/sky-blog/
 
 ## 本地开发
 

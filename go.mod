@@ -1,4 +1,4 @@
-module github.com/why-there/moon-blog
+module github.com/why-there/sky-blog
 
 go 1.26
 
