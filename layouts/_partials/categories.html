@@ -1,0 +1,7 @@
+{{- $context := .context -}}
+
+{{- range $category := $context.Params.categories -}}
+  {{- with $context.Site.GetPage (printf "/categories/%s" $category) -}}
+    <a class="hx:inline-block hx:whitespace-nowrap hx:mr-2 hx:text-xs hx:px-2 hx:py-0.5 hx:rounded-full hx:bg-gray-100 hx:dark:bg-gray-800 hx:hover:bg-primary-100 hx:dark:hover:bg-primary-900 hx:text-gray-600 hx:dark:text-gray-300" href="{{ .RelPermalink }}">{{ $category }}</a>
+  {{- end -}}
+{{- end -}}
