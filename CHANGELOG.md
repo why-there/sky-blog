@@ -12,6 +12,7 @@
 ### 功能变更
 
 - 点击导航栏头像跳转到「关于」页面（logo.link: `/` → `/sky-blog/about/`）
+- 浏览器页签图标（favicon）改为使用头像图片：新增 `layouts/_partials/favicons.html` 覆盖主题默认模板
 
 ### 修复
 
