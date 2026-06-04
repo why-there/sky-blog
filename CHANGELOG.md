@@ -14,7 +14,7 @@
 - 点击导航栏头像跳转到「关于」页面（logo.link: `/` → `/sky-blog/about/`）
 - 浏览器页签图标（favicon）改为使用头像图片：新增 `layouts/_partials/favicons.html` 覆盖主题默认模板
 - 博文分类：「26年第22周」添加 `categories: 天空的投资记录`，后续周记统一使用该分类
-- 文章列表预览字数限制为 30 字（`hugo.yaml` 添加 `summaryLength: 30`）
+- 文章列表预览字数限制为 30 字（`hugo.yaml` 添加 `summaryLength: 30`；新增 `layouts/_partials/utils/page-description.html` 覆盖主题 partial，用 `truncate 30` 强制截断）
 - 分类功能增强：导航栏添加「分类」入口；新增 `layouts/_partials/categories.html`、覆盖 `layouts/blog/single.html` 和 `layouts/blog/list.html`，在文章详情页和博客列表页显示分类标签
 
 ### 内容发布
