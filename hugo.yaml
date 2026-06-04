@@ -40,7 +40,7 @@ params:
     displayLogo: true
     logo:
       path: images/Avatar.png
-      link: /
+      link: /about
       width: 40
       height: 40
 
